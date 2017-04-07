@@ -1,0 +1,1 @@
+puppet lookup --hiera_config $PWD/hiera.yaml classes --merge deep --knock-out-prefix "--"

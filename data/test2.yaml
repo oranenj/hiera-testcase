@@ -1,0 +1,5 @@
+classes:
+  - 'test2_class'
+  - --test2a_knockout
+  - test2_knockout
+  - --test1_knockout

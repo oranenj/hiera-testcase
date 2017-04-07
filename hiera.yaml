@@ -1,0 +1,19 @@
+---
+version: 5
+defaults:
+    datadir: data
+    data_hash: yaml_data
+
+hierarchy:
+    - name: test 1
+      paths:
+        - test1.yaml
+        # uncomment this to break the knockout of test2_knockout, but why?
+        #- test1a.yaml
+    - name: test 2
+      paths: 
+        - test2.yaml
+        # uncommenting this also changes the behaviour
+        #- test2a.yaml
+
+

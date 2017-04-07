@@ -1,0 +1,6 @@
+---
+classes: 
+  - --test1a_knockout
+  - test1_foo
+  - test1_knockout
+  - --test2_knockout
